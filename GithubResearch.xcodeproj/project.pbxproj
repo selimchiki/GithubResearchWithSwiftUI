@@ -15,6 +15,7 @@
 		F43EB61922B7B71B0080011F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F43EB61722B7B71B0080011F /* LaunchScreen.storyboard */; };
 		F43EB62322B7BD2B0080011F /* Repo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43EB62222B7BD2B0080011F /* Repo.swift */; };
 		F43EB62522B7BD9F0080011F /* SearchResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43EB62422B7BD9F0080011F /* SearchResponse.swift */; };
+		F43EB62722B7BDFE0080011F /* GithubService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43EB62622B7BDFE0080011F /* GithubService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		F43EB61A22B7B71C0080011F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F43EB62222B7BD2B0080011F /* Repo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repo.swift; sourceTree = "<group>"; };
 		F43EB62422B7BD9F0080011F /* SearchResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResponse.swift; sourceTree = "<group>"; };
+		F43EB62622B7BDFE0080011F /* GithubService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 		F43EB62022B7BCB00080011F /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				F43EB62622B7BDFE0080011F /* GithubService.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -170,6 +173,7 @@
 			files = (
 				F43EB60D22B7B7150080011F /* AppDelegate.swift in Sources */,
 				F43EB62522B7BD9F0080011F /* SearchResponse.swift in Sources */,
+				F43EB62722B7BDFE0080011F /* GithubService.swift in Sources */,
 				F43EB60F22B7B7150080011F /* SceneDelegate.swift in Sources */,
 				F43EB61122B7B7150080011F /* ContentView.swift in Sources */,
 				F43EB62322B7BD2B0080011F /* Repo.swift in Sources */,
