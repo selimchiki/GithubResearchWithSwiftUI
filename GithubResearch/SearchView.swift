@@ -17,7 +17,7 @@ struct SearchView : View {
         NavigationView {
             List {
                 TextField($query, placeholder: Text("Type something..."), onCommit: fetch)
-                ForEach(repoStore.store) { repo in
+                ForEach(repoStore.repos) { repo in
                     RepoRow(repo: repo)
                 }
             }.navigationBarTitle(Text("Search"))
@@ -32,7 +32,7 @@ struct SearchView : View {
 #if DEBUG
 struct SearchView_Previews : PreviewProvider {
     static var previews: some View {
-        SearchView(body: <#Environment<some View>#>)
+        SearchView()
     }
 }
 #endif
